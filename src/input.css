@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+.h1 {
+  @apply text-3xl lg:text-5xl xl:text-[84px] text-white;
+}
+
+h2,
+.h2 {
+  @apply text-3xl lg:text-4xl xl:text-[40px] leading-normal mb-5;
+}
+
+h3,
+.h3 {
+  @apply text-xl lg:text-2xl;
+}
+
+h4,
+.h4 {
+  @apply text-xl lg:text-lg;
+}
+
+h5,
+.h5 {
+  @apply text-lg lg:text-xl;
+}
+
+h6,
+.h6 {
+  @apply text-base;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  @apply max-lg:sticky;
+
+}
+
+
+.container {
+  @apply max-w-[1440px] mx-auto px-5;
+}
