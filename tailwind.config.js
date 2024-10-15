@@ -5,20 +5,19 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#e73324",
-          100: "#d21502",
+          DEFAULT: "#4b00b3",
+          100: "#64B5F6",
         },
-        "ss-dark": {
-          DEFAULT: "#262626",
-          100: "#1F1D1A",
-          200: "#171717",
+        secondary: {
+          DEFAULT: "#008000",
+          100: "#64B5F6",
         },
-        danger: {
-          DEFAULT: "#dc3545",
-          100: "#e73324",
+        "ss-green": {
+          DEFAULT: "#81C784",
+          100: "#4CAF50",
         },
-        lightgrey: {
-          DEFAULT: "#1717173d",
+        darkgrey: {
+          DEFAULT: "#424242",
         },
         fontFamily: {
           base: ["Roboto"],

@@ -559,9 +559,14 @@ video {
   line-height: 1;
 }
 
-.text-ss-dark-200 {
+.text-primary {
   --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity));
+  color: rgb(75 0 179 / var(--tw-text-opacity));
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(0 128 0 / var(--tw-text-opacity));
 }
 
 .underline {
