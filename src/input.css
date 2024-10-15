@@ -8,8 +8,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
 }
 
 h1,
@@ -43,7 +43,7 @@ h6,
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   @apply max-lg:sticky;
 
 }
@@ -51,4 +51,36 @@ body {
 
 .container {
   @apply max-w-[1440px] mx-auto px-5;
+}
+
+.btn {
+  @apply inline-flex h-[40px] overflow-hidden relative rounded-[54px] items-center justify-center cursor-pointer px-[33px] text-xs text-center !leading-none font-semibold no-underline select-none border border-solid transition ease-in-out duration-500 focus:outline-none focus:ring focus:ring-offset-1 focus:ring-opacity-50 disabled:opacity-75 disabled:cursor-not-allowed;
+}
+
+.btn-primary {
+  @apply bg-primary text-white border-primary hover:bg-primary hover:text-white hover:border-primary focus:bg-primary focus:text-white focus:border-primary focus:ring-primary active:bg-primary active:border-primary;
+}
+
+.btn-secondary {
+  @apply bg-white text-white hover:text-white hover:bg-primary hover:border-primary focus:bg-primary focus:text-white focus:border-primary focus:ring-primary active:bg-primary active:border-primary;
+}
+
+.btn-outline {
+  @apply bg-transparent border-solid text-white border-white hover:bg-white hover:text-primary hover:border-primary focus:bg-white focus:text-primary focus:border-primary/65 focus:ring-primary/65 active:bg-white/65 active:border-primary/65 pr-4;
+}
+
+.label-down {
+  @apply block h-full relative top-5 transition-all ease-in-out duration-500;
+}
+
+.label-up {
+  @apply block h-full relative top-5 transition-all ease-in-out duration-500 group-hover:text-transparent hover:bg-transparent;
+}
+
+.btn:hover .label-down {
+  @apply top-[-65%];
+}
+
+.btn-block {
+  @apply block w-full;
 }
