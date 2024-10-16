@@ -6,10 +6,10 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: "#4b00b3",
-          100: "#64B5F6",
+          100: "#3a0090",
         },
         secondary: {
-          DEFAULT: "#008000",
+          DEFAULT: "#046a3b",
           100: "#64B5F6",
         },
         "ss-green": {

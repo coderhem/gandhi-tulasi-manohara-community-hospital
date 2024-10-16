@@ -84,3 +84,11 @@ body {
 .btn-block {
   @apply block w-full;
 }
+
+.stretched-link {
+  @apply absolute inset-0;
+}
+
+.top-header li:not(:first-child) {
+  @apply border-l border-white/90 pl-3;
+}
